@@ -3,20 +3,25 @@
 ## Descripción
 
 Este programa en C++ realiza el producto tensorial entre un vector “columna” y un vector “fila” con $n$ elementos, dando como resultado una matriz definida por,
-$$\begin{pmatrix}
-x_1\\ 
-x_2\\ 
-x_3\\ 
+
+$$
+{\begin{pmatrix}
+x_{1}\\ 
+x_{2}\\ 
+x_{3}\\ 
 \vdots \\ 
-x_n
-\end{pmatrix}\otimes \begin{pmatrix}
-y_1 &y_2  &y_3  &\cdots  &y_n 
+x_{n}
+\end{pmatrix}
+\otimes
+\begin{pmatrix}
+y_{1} &y_{2}  &y_{3}  &\cdots  &y_{n} 
 \end{pmatrix}=\begin{pmatrix}
-x_1y_1 &x_1y_2  &\cdots  &x_1y_n \\ 
-x_2y_1&x_2y_2  &\cdots  &x_2y_n \\ 
+x_{1}y_{1} &x_{1}y_{2}  &\cdots  &x_{1}y_{n} \\ 
+x_{2}y_{1}&x_{2}y_{2}  &\cdots  &x_{2}y_{n} \\ 
  \vdots &  \vdots & \ddots  &\vdots  \\ 
- x_ny_1&x_ny_2  &\cdots  &x_ny_n 
-\end{pmatrix}$$
+ x_{n}y_{1}&x_{n}y_{2}  &\cdots  &x_{n}y_{n}
+\end{pmatrix}
+}$$
 
 ## Instrucciones de Uso
 Al iniciar el programa se mostrará en pantalla algunas notas importantes para que el usuario ocupe de
@@ -49,8 +54,8 @@ Compilador de C++ compatible.
 ### Ejemplos y Demostraciones:
 Ejemplos de uso
 Una vez compilado, ejecuta el programa proporcionando y siga las instrucciones proporcionadas en pantalla
-```mathematica
-.\producto_tensorial
+```bash
+$.\producto_tensorial
 Producto tensorial X ⊗ Y
 
 Notas:
