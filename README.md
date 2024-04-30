@@ -44,7 +44,7 @@ pantalla la matriz resultante del producto tensorial.
 
 ```
 ### Ejecución:
-Una vez compilado, ejecuta el programa proporcionando y siga las instrucciones proporcionadas en pantalla
+Una vez compilado, ejecute el siguiente comando y siga las instrucciones proporcionadas en pantalla
 ```bash
   ./producto_tensorial
 ```  
